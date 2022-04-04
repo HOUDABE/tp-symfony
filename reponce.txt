@@ -1,0 +1,26 @@
+TP SYMFONY INITIATION
+Q1 / Définissez la notion en base de données
+Les fonctions d’agrégation =>Les fonctions d’agrégation dans le langage SQL permettent d’effectuer des opérations statistiques sur un ensemble d’enregistrement. Étant données que ces fonctions s’appliquent à plusieurs lignes en même temps 
+
+Clé étrangère => Une clé étrangère, dans une base de données relationnelle, est une contrainte qui garantit l'intégrité référentielle entre deux tables. Une clé étrangère identifie une colonne ou un ensemble de colonnes d'une table comme référençant une colonne ou un ensemble de colonnes d'une autre table (la table référencée 
+
+Jointure interne => INNER JOIN : jointure interne pour retourner les enregistrements quand la condition est vrai dans les 2 tables. C’est l’une des jointures les plus communes.
+Jointure externe => La jointure externe entre R1 et R2 est une jointure qui produit une relation R3 à laquelle on ajoute les tuples de R1 et de R2 exclus par la jointure, en complétant avec des valeurs nulles pour les attributs de l'autre relation. 
+	•	
+Q2 / Création d’un projet Symfony
+	•	Créez un projet avec toutes les librairies associées en version 5.4
+symfony new monprojet --full --version=5.4
+	•	Quelles est la commande pour un lancement de projet sans les librairies associées
+symfony serve
+	•	Quel sont les deux rôles de composer
+	•	Expliquez à quoi correspond le namespace et les use.
+	•	Expliquez en quelques lignes la notion de MVC et comment il est construit dans un projet Symfony
+Q3 / Création de page 
+	•	Créez une page Accueil
+	•	Envoyez une variable depuis le contrôleur à la vue Accueil
+Q4 / Création de page de newsletter
+	•	Créez un formulaire indépendant d’une entité contenant un champ « email » et un bouton « s’inscrire »
+Q5 / Créez un CRUD Article
+	•	Quel est le composant permettant de faire le lien avec la base de données ?
+Symfony console doctrine:database:create
+	•	Commentez les classes générées par le maker bundle.
